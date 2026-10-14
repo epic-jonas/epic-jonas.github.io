@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.7; color: #202c36; background: #f5f7f8; }
+body { margin: 0; }
+main { max-width: 46rem; margin: 4rem auto; padding: 2.5rem; background: #fff; border: 1px solid #dfe5e8; border-radius: .5rem; }
+h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.2; letter-spacing: -.04em; margin: .5rem 0 1.25rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+p { margin: .75rem 0; }
+a { color: #175e88; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #d88c12; outline-offset: 4px; }
+.eyebrow { font-size: .85rem; color: #506471; }
+.intro { font-size: 1.15rem; }
+nav { display: flex; flex-wrap: wrap; gap: 1.5rem; border-top: 1px solid #dfe5e8; margin-top: 2.5rem; padding-top: 1.25rem; }
+footer { margin-top: 1.5rem; font-size: .85rem; color: #506471; }
+@media (max-width: 600px) { main { margin: 0; padding: 1.5rem; border: 0; border-radius: 0; } }
+@media (prefers-color-scheme: dark) { :root { color: #e1e8ed; background: #141c22; } main { background: #1b262e; border-color: #3c4b55; } a { color: #90cbee; } .eyebrow, footer { color: #adbdc7; } nav { border-color: #3c4b55; } }
